@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: #3dcfbb;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto; /*2 column grid, auto resize for width*/
@@ -10,7 +14,30 @@ h1 {
     padding: 1em;
 }
 
+/*the div tags that are direct children of the grid-container*/
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .full-width {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2ccbb4;
 }
