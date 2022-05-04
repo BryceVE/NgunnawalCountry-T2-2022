@@ -1,12 +1,20 @@
 h1 {
-    color: #840000;
+    color: #2a382b;
     text-align: center;
 }
 
 body {
-    background-color: #3dcfbb;
+    background-color: #cff2ec;
 }
 
+.banner > img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* period (.) means it is a class */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto; /*2 column grid, auto resize for width*/
@@ -24,20 +32,32 @@ body {
     grid-column-end: 3;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: #333333;
+.main-content {
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
-.navbar a {
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* logo */
+.navbar > img {
+    float: left;
+    text-align: center;
+    padding: 0.5em 0.5em;
+}
+
+.navbar > a {
     float: left;
     font-size: 1em;
-    color: white;
+    color: #1a1a1a;
     text-align: center;
-    padding: 1em 1em;
+    padding: 1.8em 1em;
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: #2ccbb4;
+.navbar > a:hover {
+    background-color: #bebebe;
 }
