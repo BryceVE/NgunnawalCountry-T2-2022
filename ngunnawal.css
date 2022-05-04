@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #cff2ec;
 }
@@ -41,11 +46,6 @@ body {
 .main-content {
     grid-row-start: 2;
     grid-row-end: 4;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
 }
 
 .navbar {
