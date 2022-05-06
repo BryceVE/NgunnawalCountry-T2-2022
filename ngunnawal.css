@@ -10,7 +10,6 @@ body {
 /* BANNER */
 
 .banner > img {
-    align-content: center;
     margin-top: 68px;
     display: block;
     margin-left: auto;
@@ -18,7 +17,6 @@ body {
     max-height: 100%;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 /* DISPLAY GRID */
@@ -37,6 +35,7 @@ body {
     padding:1em;
 }
 
+/*span 2 cells across page*/
 .full-width {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -86,16 +85,17 @@ body {
     float: right;
 }
 
-/* Style the search box inside the navigation bar */
+/*search box inside the navigation bar*/
 .navbar input[type=text] {
     float: right;
     padding: 1em;
     border: none;
     margin-top: 14px;
-    margin-right: 0px;
+    margin-right: 0;
     font-size: 14px;
 }
 
+/*search button*/
 .navbar .search-container button {
     float: right;
     padding: 1em;
