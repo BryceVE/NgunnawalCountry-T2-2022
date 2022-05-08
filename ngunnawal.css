@@ -36,6 +36,15 @@ body {
     padding:1em;
 }
 
+.grid-container > p > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /*span 2 cells across page*/
 .full-width {
     grid-column-start: 1;
@@ -60,6 +69,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000; /*puts navbar in front of everything on page*/
 }
 
 /*navbar logo*/
