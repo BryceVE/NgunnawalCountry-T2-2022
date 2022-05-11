@@ -73,17 +73,19 @@
     </div>
     <div>
         <p> <!--cell 3-->
-            <img class="centre-img" src="images/country/img5.png" width= "93%">
+            <img class="centre-img" src="images/country/img5.png" width="93%">
         </p>
     </div>
     <div>
         <p>
-            Cell1
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum accumsan augue in ultrices. Cras
+            vel auctor lacus. Nulla tincidunt.
         </p>
     </div>
     <div>
         <p>
-            Cell2
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et purus dolor. Aenean sed odio nibh.
+            Vestibulum ornare, diam ut.
         </p>
     </div>
     <div>
@@ -98,12 +100,15 @@
     </div>
     <div>
         <p>
-            Cell3
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ultrices metus, sed volutpat elit.
+            Maecenas nunc ante, dapibus vitae dapibus vel, imperdiet vitae leo. Pellentesque mattis lorem quis nisi.
         </p>
     </div>
     <div>
         <p>
-            Cell4
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla velit in justo volutpat
+            aliquet. Nullam fringilla bibendum quam at interdum. Quisque vel turpis at nunc maximus sollicitudin non
+            quis.
         </p>
     </div>
 </div>
@@ -133,16 +138,20 @@
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
     }
 </script>
 
