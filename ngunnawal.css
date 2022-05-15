@@ -1,3 +1,4 @@
+/*whole page*/
 * {
     margin: 0;
     padding: 0;
@@ -77,6 +78,7 @@ body {
     float: left;
     text-align: center;
     padding: 0.5em 0.5em;
+    margin-top: 8px;
 }
 
 .navbar > a {
@@ -138,6 +140,7 @@ body {
 
 /* IMAGE CAROUSEL */
 
+/*Code from W3 Schools https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
