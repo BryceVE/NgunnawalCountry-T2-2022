@@ -9,7 +9,7 @@ body {
     background-color: #cff2ec;
 }
 
-/* BANNER */
+/**** BANNER *****/
 
 .banner > img {
     margin-top: 68px;
@@ -21,7 +21,7 @@ body {
     height: auto;
 }
 
-/* DISPLAY GRID */
+/**** DISPLAY GRID ****/
 
 /*period (.) means it is a class*/
 .grid-container {
@@ -62,7 +62,7 @@ body {
     grid-row-end: 4;
 }
 
-/* NAVBAR */
+/**** NAVBAR ****/
 
 .navbar {
     overflow: hidden;
@@ -124,7 +124,7 @@ body {
     background: #ccc;
 }
 
-/* FOOTER */
+/**** FOOTER ****/
 
 .footer {
     overflow: hidden;
@@ -138,9 +138,9 @@ body {
     padding-left: 1em;
 }
 
-/* IMAGE CAROUSEL */
+/**** IMAGE CAROUSEL ****/
 
-/*Code from W3 Schools https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+/* Code from W3 Schools https://www.w3schools.com/howto/howto_js_slideshow.asp */
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -211,6 +211,7 @@ body {
     animation-duration: 1.5s;
 }
 
+/* Fade to opaque */
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}

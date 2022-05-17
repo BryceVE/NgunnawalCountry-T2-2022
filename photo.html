@@ -124,19 +124,21 @@
 <!--javascript for image carousel-->
 <!--Code from W3 Schools https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 <script>
+    // Starting slide
     let slideIndex = 1;
     showSlides(slideIndex);
 
-    // Next/previous controls
+    // Next/previous slides
     function plusSlides(n) {
         showSlides(slideIndex += n);
     }
 
-    // Thumbnail image controls
+    // Shows current image
     function currentSlide(n) {
         showSlides(slideIndex = n);
     }
 
+    // displays slides
     function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
